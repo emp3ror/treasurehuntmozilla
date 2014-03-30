@@ -8,13 +8,16 @@ session_start();
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- background -->
-    <img src="" > 
-    <div class="content">
-    MOZILLA group wants to achieve their dream.They have worked hard to reach to their dream but still something is missing-Something important to make Mozilla a whole .But it is not easy to gain that something.They will have to face a lot of problems to find that something and make Mozilla complete.
-    <h3>LET THE HUNT BEGIN!!!</h3>
+  <div class="wrapper">
+      <div class="content">
+      MOZILLA group wants to achieve their dream.They have worked hard to reach to their dream but still something is missing-Something important to make Mozilla a whole .But it is not easy to gain that something.They will have to face a lot of problems to find that something and make Mozilla complete.
+      <h3>LET THE HUNT BEGIN!!!</h3>
 
-    </div>
+      </div>
+  </div>
+    <!-- background -->
+    <img src="images/treasure-map.jpg" width="100%" class="map"> 
+    
 
 <script id="entry-template" type="text/x-handlebars-template">
   <div class="question" data-imp="{{ans}}">{{question}}</div>
