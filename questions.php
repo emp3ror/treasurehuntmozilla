@@ -4,7 +4,7 @@ session_start();
 
 <html>
 <head>
-    <title></title>
+    <title>treasure hunt</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -84,7 +84,7 @@ console.log("welcome mozillians");
               }
             })
             .done(function( msg ) {
-              alert( "Data Saved: " + msg );
+              //alert( "Data Saved: " + msg );
             });
 
             count++;
